@@ -24,12 +24,7 @@ import tqdm
 # Torch related
 # ==============
 import torch 
-#from torch import nn
 
-
-
-#import pytorch_lightning as pl
-#import torchmetrics
 
 # Turn on cuda optimizer
 print(torch.backends.cudnn.is_available())
@@ -47,6 +42,7 @@ torch.no_grad()
 # NN
 # =================
 sys.path.append('../')
+"""
 from NucleicNet.DatasetBuilding.util import *
 from NucleicNet.DatasetBuilding.commandReadPdbFtp import ReadBCExternalSymmetry, MakeBcClanGraph
 from NucleicNet.DatasetBuilding.commandDataFetcher import FetchIndex, FetchTask, FetchDataset
@@ -54,7 +50,7 @@ from NucleicNet.DatasetBuilding.commandBenchmark import BenchmarkWrapper
 from NucleicNet import Burn, Fuel
 import NucleicNet.Burn.M1
 import NucleicNet.Burn.util
-
+"""
 
 
 
