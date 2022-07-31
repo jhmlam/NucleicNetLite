@@ -51,7 +51,7 @@ from NucleicNet import Burn, Fuel
 import NucleicNet.Burn.M1
 import NucleicNet.Burn.util
 """
-
+from NucleicNet.DatasetBuilding.util import *
 
 
 
