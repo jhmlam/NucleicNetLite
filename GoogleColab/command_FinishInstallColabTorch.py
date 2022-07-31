@@ -21,3 +21,7 @@ A_sym = (A.T + A )/2 + torch.eye(90, device = 0)
 torch.linalg.eigvalsh(A_sym)
 torch.linalg.eigvals(A_sym)
 torch.linalg.qr(A_sym)
+
+
+
+print("Torch Test succeeded")
