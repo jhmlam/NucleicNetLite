@@ -3,7 +3,6 @@ import numpy
 import scipy
 import seaborn
 import pandas
-import plotly
 import torchmetrics
 import biopandas
 import sklearn
